@@ -1,5 +1,4 @@
 * {
-    /* box-sizing: border-box; */
     padding: 0;
     margin: 0;
 }
@@ -53,6 +52,17 @@ p {
     font-size: 16px;
 }
 
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
+
 .hero {
     height: 800px;
     width: 100%;
@@ -87,26 +97,19 @@ p {
 .contentbody {
     align-items: flex-start;
     display: flex;
-    /* flex-wrap: wrap; */
     flex-direction: row;
     justify-content: space-evenly;
 }
 
 .content {
     width: 75%;
-    /* display: inline-block; */
     margin-left: 20px;
-    /* margin-right: 20px; */
-    /* position: absolute; */
 }
 
 .benefits {
-    /* width: 30%; */
     margin-right: 20px;
     margin-left: 20px;
     padding: 20px;
-    /* clear: both; */
-    /* float: right; */
     width: 20%;
     height: 50%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -149,18 +152,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-/* 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
 
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-} */
 h2 {
     margin-bottom: 20px;
     font-size: 120%;
@@ -213,14 +205,10 @@ p {
 .social-media-marketing img {
     max-height: 200px;
     max-width: 400px;
-    /* display:         flex;
-    flex-wrap:       wrap;
-    justify-content: center; */
-    
 }
 
 @media screen and (max-width: 992px) {
-    .search-engine-optimization img,
+.search-engine-optimization img,
 .online-reputation-management img,
 .social-media-marketing img {
       height: 175px;
@@ -241,7 +229,7 @@ p {
     }
 
 @media screen and (max-width: 768px) {
-    .search-engine-optimization img,
+.search-engine-optimization img,
 .online-reputation-management img,
 .social-media-marketing img {
         height: 100px;
@@ -253,27 +241,5 @@ p {
     p{
         font-size: 10px;
     }
-}
-
-
-/* .online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-} */
-
-.footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
-.footer h2 {
-    font-size: 20px;
 }
 }
