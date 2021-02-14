@@ -63,6 +63,7 @@ p {
     font-size: 20px;
 }
 
+/* Added media screens to adjust the main picture for different page aspect ratios. */
 .hero {
     height: 800px;
     width: 100%;
@@ -94,9 +95,10 @@ p {
     margin-left: 25px;
 }
 
+/* Changed the body to flex-box */
 .contentbody {
-    align-items: flex-start;
     display: flex;
+    align-items: flex-start;
     flex-direction: row;
     justify-content: space-evenly;
 }
@@ -200,6 +202,7 @@ p {
     color: #ffffff;
 }
 
+/* Added media screen for rest of the images and paragraph size to change depending on aspect ratio. */
 .search-engine-optimization img,
 .online-reputation-management img,
 .social-media-marketing img {
